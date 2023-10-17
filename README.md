@@ -24,10 +24,12 @@ Wikimedia API Reference Guide: https://www.mediawiki.org/wiki/API:Info
 
 Open notebooks in Google colab, create a google drive folder with all the input datasets and run the notebooks DATA512_HW_2_DataAcquistion.ipynb, DATA512_HW_2_DataAnalysis.ipynb. 
 
+In "DATA512_HW_2_DataAcquistion.ipynb", data from "us_cities_by_state_SEPT.2023.csv" is loaded, and article titles with revision IDs are fetched using the Wikipedia API, saved in "city_data.json". The ORES model predicts article quality, stored in "quality_predictions.csv". This data, combined with other datasets, results in "wp_scored_city_articles_by_state.csv", detailing state, region, population, and article specifics. Another notebook, "DATA512_HW_2_DataAnalysis.ipynb", analyzes this, addressing article distribution by state and quality, using grouping and filtering techniques.
 
 # Research Implications
 
 Reflection
+
 Understanding a data science project requires both quantitative and qualitative analysis. This project highlighted biases in data, influenced by factors like demographics, religion, and culture. It revealed that articles per capita might not be the best measure, with states like Vermont showing higher articles despite a smaller population. This could be due to factors like a stronger community of contributors. Online data inherently has biases stemming from various socio-cultural factors. Recognizing these biases is crucial to ensure accurate interpretations and results, especially when considering the influence of population and linguistic proficiency on the quality of articles.
 
 What biases did you expect to find in the data (before you started working with it), and why?
