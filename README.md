@@ -1,4 +1,4 @@
-# data_512_hw_2
+# Goal of the project
 
 The project investigates data bias in Wikipedia articles, focusing on U.S. cities and towns. It examines the quality and quantity of Wikipedia articles for these locations. The analysis includes assessing predicted article quality and exploring state-level patterns in article coverage and high-quality content. The goal is to gain insights into regional disparities in Wikipedia content, particularly how well different U.S. states are represented and the quality of the articles about their cities and towns.
 
